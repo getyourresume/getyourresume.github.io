@@ -1,0 +1,565 @@
+body{
+    background-color: rgba(0,0,0,0.1);
+    font-family:serif;
+    margin:0px;
+    padding:0;
+    font-size:20px;
+}
+/*navigation bar start*/
+.mynav{
+    background-image: url('images/background2.jpg');
+    height:670px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width:100%;
+}
+.navbar{
+    background-color: transparent !important;
+}
+.nav-button{
+    background-color: rgba(250,250,250,0.2);
+}
+.logo{
+    background-color:transparent !important;
+    font-size:1em;
+}
+.navbar .navbar-nav{
+    margin:0 auto;
+}
+.active{
+    background-color:rgba(250,250,250,0.4);
+    border-top:3px black solid;
+}
+.navbar .nav-item a{
+    color:#000 ! important;
+    font-weight:bold;
+    margin:5px;
+    text-align: center;
+    font-size:20px;
+}
+
+.navbar .nav-item a:hover{
+    border-top:2px solid;
+    background-color:rgb(0,0,0,0.1);
+}
+
+.navbar form button{
+    background-color: rgba(220,250,250,0.6);
+    font-size: 20px;
+    font-style:italic;
+    color:rgba(0,0,0,0.5);
+    font-weight: bolder ;
+    border:0;
+    border-radius: 5px;
+}
+.navbar form button:hover{
+    background-color: #fff ;
+    border:0px;
+    color:#000;
+}
+
+.download{
+    color:black;
+    float:right;
+    margin-right:50px;
+    font-size:30px;
+    font-weight: bold;
+    margin-top:-50px;
+    padding:5px;
+}
+.download:hover{
+    color:black;
+    background-color:rgba(0,0,0,0.2);
+    text-decoration: none;
+}
+#samp{
+    margin-left:50px;
+}
+.search{
+    background-color:rgba(220,250,250,0.6);
+    font-style:italic;
+    font-weight: bolder ;
+    border:0;
+    padding:0px;
+}
+ul.wrap{
+    list-style: none;
+    display:none;
+}
+#wrapper1{
+    width:20px;
+    height: 10px;
+    margin:10px;
+    box-shadow:0 2px 3px rpga(0,0,0,0.5);
+    border-radius:2px;
+    text-align: center;
+}
+#wrapper1>a{
+    font-size: 24px;
+    color:#fff;
+    line-height: 100px;
+    text-decoration: none;
+}
+.head{
+    background-color:azure;
+    font-size:2em;
+    font-weight:bolder;
+    border:8px inset #23fa89;
+}
+
+/*navigationbar ends*/
+
+.image-text {
+    top:50%;
+    color:#fff;
+    position:absolute;
+    font-size:40px;
+    text-align: center;
+    font-family:serif;
+}
+
+
+/*main content*/
+.box-highlight {
+    text-align: center;
+    background-color:dimgrey;
+    color:white;
+    padding:50px;
+}
+.box-highlight h2{
+        border-bottom:5px black groove;
+}
+/*section */
+.text-left{
+    background-color:#595;
+    font-size:20px;
+    color:#fff;
+    padding:50px;
+    line-height:48px;
+    border-right:10px blue groove;
+  
+}
+.text-left h3, p{
+    text-align: center;
+}
+.text-right h3, p{
+    text-align: center;
+}
+.text-right{
+    background-color:burlywood;
+    color:#000;
+    text-align:center;
+    padding:50px;
+    font-size:20px;
+    line-height:48px;
+    border-left:10px blue groove;
+   
+}
+
+.image-left img{
+    height:580px;
+    width:754px;
+    width:100%;
+    height:100%;
+    
+}
+.image-right, .image-left{
+    margin:0;
+    padding:0;
+}
+.image-right:hover, .image-left:hover{
+    margin:0;
+    padding:0;
+    border:3px black solid;
+}
+.image-right img{
+    height:580px;
+    width:754px;
+    width: 100%;
+    height: 100%;
+    
+}
+/*section ends*/
+#mySidenav a {
+    margin-top:15%;
+    position: absolute;
+    left: -50px;
+    transition: 0.3s;
+    padding: 5px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-left:70px;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: -10px;
+    color:greenyellow;
+}
+
+.nav_active a{
+    margin-left: 30px;
+}
+.nav_active a:hover{
+    margin-left: -10px;
+}
+#bca {
+    top: 0px;
+    background-color: #4CAF50;
+}
+
+#bscit {
+    top: 40px;
+    background-color: #2196F3;
+}
+
+#bba {
+    top: 80px;
+    background-color: #f44336;
+}
+
+#bhm {
+    top: 120px;
+    background-color: #555
+}
+#mca {
+    top: 160px;
+    background-color:blueviolet;
+}
+
+#mscit {
+    top: 200px;
+    background-color:dimgrey;
+}
+
+#mba {
+    top: 240px;
+    background-color:burlywood;
+}
+
+#chm {
+    top: 280px;
+    background-color:deepskyblue;
+}
+
+/*Readmore*/
+.readmore{
+    border:0;
+    border-radius: 5px;
+    background-color: rgba(10,10,10,0.1);
+}
+.readmore:hover{
+    background-color: rgba(250,250,250,0.5);
+}
+.seemore{
+    border:0;
+    border-radius:5px;
+    background-color:#fff;
+    color:#000;
+    margin-left:43%;
+    font-weight: bold;
+    margin-top:20px;
+}
+.seemore:hover{
+    background-color: rgba(0,0,0,0.4);
+    color:#fff;
+}
+/*Read more ends*/
+.container-fluid{
+    margin:0;
+    padding-left: 0px;
+    padding-right:0px;
+}
+.row{
+    padding: 0;
+    margin:0;
+}
+.container{
+    padding:30px;
+}
+.center{
+    text-align:center;
+    padding:10px;
+    background-color:grey;
+    color:#fff;
+    border-bottom:5px black solid;
+}
+.image{
+    margin:0;
+    height:1200px;
+    width:200px;
+    width:100%;
+}
+.image:hover{
+    border:3px black solid;
+}
+.image_content{
+    height:1200px;
+    width:400px;
+    width:100%;
+}
+.image_content:hover{
+    border:3px black inset;
+}
+h3{
+    color:black;
+    font-weight: bolder;
+}
+/*form button*/
+.form-button{
+    background-color: #e44c65;
+    padding:90px;
+    text-align:center;
+    color:white;
+    text-decoration: none;
+    margin:0;
+}
+
+.form-button1{
+    color:#e44c6f;
+     padding:10px;
+    font-size:20px;
+    width:300px;
+     margin-left:33px;
+    margin-top:20px;
+    font-family:serif;
+    border-radius: 5px;
+    border:0;
+    text-align: center;
+    
+}
+.form-button1:hover{
+    border:2px black inset;
+}
+.signup{
+    border:0;
+    margin-top: 10px;
+    background-color:orangered;
+    border-radius:5px;
+    padding:13px;
+    width:200px;
+    font-family:serif;
+    font-weight:bold;
+    font-size:20px;
+    max-width: 100%;
+}
+.login{
+    width:500px;
+    font-size: 20px;
+    background-color:coral;
+    border:0;
+    font-family: serif;
+    padding:5px;
+    border-radius:5px;
+    
+}
+.login:hover{
+    background-color: darkorange;
+    color:#fff;
+}
+.signup:hover{
+    background-color:dimgrey;
+    color:#fff;
+}
+.team{
+    background-color: antiquewhite;
+    padding:70px;
+    font-family:serif;
+}
+.team header{
+    color:brown;
+    font-weight: bolder;
+    text-align:center;
+}
+.image1{
+    background-color:aqua;
+    border:5px black double;
+    padding:30px;
+    margin-left:-10px;
+    margin-right:10px;
+}
+.image1 img{
+    border-radius:20px;
+    width:100%;
+}
+.image2{
+    background-color:blueviolet;
+    border:5px black solid;
+    padding:30px;
+}
+.image2 img{
+    border-radius:20px;
+    width:100%;
+}
+.image3{
+    background-color:dodgerblue;
+    border:5px black double;
+    padding:30px;
+    margin-left:10px;
+    margin-right:-10px;
+}
+.image3 img{
+    border-radius:20px;
+    width:100%;
+}
+.image1 img:hover,.image2 img:hover,.image3 img:hover{
+    transform: rotateY(90deg);
+    backface-visibility: hidden;
+    transition-duration: .9s;
+
+}
+/*form button ends*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer start*/
+.footer{
+    background-color:#000;
+    color:#fff;
+    margin-top:0px;
+    padding-top:30px;
+}
+
+.footer-nav {
+    text-align:center;
+    list-style: none;
+    position:relative;
+    display:contents;
+}
+.footer-nav h4{
+    margin-left:20%;
+}
+.footer-nav li{
+    list-style: none;
+    text-align:center;
+}
+
+.footer-nav a{
+    text-align:center;
+    color:#fff;
+}
+.footer-nav a:hover{
+    color:grey;
+    text-decoration: none;
+}
+
+.logo-footer{
+    text-align:center;
+}
+.footer-contact li{
+    font-size:30px;
+    margin-right:10px;
+    display:inline-block;
+}
+#github:hover{
+    color:khaki;
+}
+#linkedin:hover{
+    color:lawngreen;
+}
+#google:hover{
+    color:red;
+}
+#twitter:hover{
+    color:skyblue;
+}
+#facebook:hover{
+    color:pink;
+}
+/*footer ends*/
+
+@media(max-width:767px){
+    .mynav{
+        height:400px;
+        width:100%;
+    }
+    .search {
+        font-size:15px;
+        width:70%;
+        
+    }
+    .navbar form button{
+        font-size:15px;
+        float:right;
+        margin-left:8px;
+    }
+    .image-text{
+        font-size:0px;
+    }
+      .form-button1{
+        margin-left:0%;
+        padding:0;
+        width:100%;
+    }
+    .login{
+        padding:5px;
+        margin-left:0%;
+        margin-top: 5px;
+        width:70%;
+    }
+    .signup{
+        width:100%;
+        margin-left:0%;
+    }
+    .form-button {
+        font-size:40px;
+        padding:5px;
+        margin:0;
+    }
+    .form-button h2{
+        margin-top:40px;
+    }
+    #mySidenav a{
+        font-size: 0px;
+        background:transparent;
+    }
+    .text-left, .text-right, .box-highlight{
+        border:0;
+        padding:2px;
+    }
+    .signup-nav{
+        font-size:0;
+        background-color:transparent !important;
+    }
+    .image-left img, .image-right img{
+        height:`100%;
+        width:100%;
+    }
+   
+    .container{
+    
+   
+    padding-left: 0px;
+    padding-right:0px;
+    }
+    .image{
+        margin:0px;
+        height:400px;
+    }
+    .center{
+        padding:1px !important;
+        font-size:30px;
+    }
+    .team{
+        padding:0;
+    }
+    .image1, .image3{
+        margin:0;
+        padding:5px;
+    }
+}
