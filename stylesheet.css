@@ -6,7 +6,7 @@ body{
     font-size:20px;
 }
 div#load_screen{
-    background: #42f4dc;
+    background: #f99d9d;
     opacity:.7;
     position:fixed;
     top:0px;
