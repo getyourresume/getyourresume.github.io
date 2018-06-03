@@ -7,7 +7,7 @@ body{
 }
 div#load_screen{
     background: #f99d9d;
-    opacity:.7;
+    opacity:1;
     position:fixed;
     top:0px;
     width:100%;
