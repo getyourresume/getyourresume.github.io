@@ -1,6 +1,4 @@
-function searchFunction(){
-    var input, filter, ul, li, a, i;
-    input=document.getElementById("myinputsearch");
-    filter=input.value.toLowerCase();
-    alert(filter);
-chrome.tabs.create({url:"https://google.com"});}
+window.addEventListener("load", function(){
+    var load_screen = document.getElementById("load_screen");
+    document.body.removeChild(load_screen);
+});

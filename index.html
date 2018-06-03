@@ -8,16 +8,19 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
     <link href="stylesheet.css" rel="stylesheet"/>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js">
-      </script>
-      <script type="text/javascript" src="javascript.js"></script>
-      
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet"/>
+    <script type="text/javascript" src="javascript.js"></script>
+    <script>
+          new WOW().init();          
+    </script>
     <title>Resume.com- The all in one resume website</title>
         <link rel="icon" href="images/logo0.png"/ >
   </head>
     
   <body>
+    <div id="load_screen"><div id="loading"></div></div>
     <div class="container-fluid">
     <div class="mynav img-responsive">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -49,16 +52,6 @@
               <button class="search-button" type="button" onclick="searchFunction()">Search</button>
             </form>
             </div>
-              <ul class="wrap">
-                <li id="wrapper1"><a href="fresher/bca.html">Bca</a></li>
-                  <li id="wrapper1"><a href="fresher/bba.html">Bba</a></li>
-                  <li id="wrapper1"><a href="fresher/bscit.html">Bsc-it</a></li>
-                  <li id="wrapper1"><a href="fresher/bhm.html">Bhm</a></li>
-                  <li id="wrapper1"><a href="fresher/mca.html">Mca</a></li>
-                  <li id="wrapper1"><a href="fresher/mba.html">Mba</a></li>
-                  <li id="wrapper1"><a href="fresher/mscit.html">Msc-it</a></li>
-                  <li id="wrapper1"><a href="fresher/chm.html">Chm</a></li>
-              </ul>
               <!--search bar end-->
          </div>
             </nav>
@@ -67,7 +60,7 @@
       
       
       
-      <div class="container-fluid image-text">
+      <div class="container-fluid image-text wow bounceInUp " data-wow-duration="2s">
         <span>It's All About Accessing The Best Resume You Can Get</span>
       </div>
       
@@ -76,8 +69,8 @@
                 <div class="col-sm-12  box-highlight">
                     <!-- Highlight -->
                         <section id="one">
-                                <h2 style="color:black">Building a professional resume</h2><br>
-                            <p>
+                            <h2 style="color:black" class="wow lightSpeedIn" data-wow-delay=".2s" data-wow-duration="2s">Building a professional resume</h2><br>
+                            <p class="wow flipInX" data-wow-duration="2s">
                                 Resume.com is the best place to build and post your resume online at no cost to you. Not only is it free, but it’s easy to sign up. Once you have posted a resume to our site, you can access it from anywhere! Use our free resume builder to create the perfect resume online in just minutes.<br>
 
 If you are looking for a job, odds are you know you need a great resume. But did you know that a professional-looking resume can set you apart from the rest of the field in a matter of seconds? The first impression is everything to an employer when going through application after application, which is why your resume must be top notch. The good news is you’ve come to the right place!
@@ -96,7 +89,7 @@ If you are looking for a job, odds are you know you need a great resume. But did
 A curriculum vitae(often shortened CV or vita) is a written overview of a person's experience and other qualifications for a job opportunity. It is akin to a résumé in North America. In some countries, a CV is typically the first item that a potential employer encounters regarding the job seeker and is typically used to screen applicants, often followed by an interview. CVs may also be requested for applicants to postsecondary programs, scholarships, grants and bursaries. In the 2010s, some applicants provide an electronic text of their CV to employers using email, an online employment website or using a job-oriented social networking service' website, such as LinkedIn.</p>
           <a href="fresher.html"> <input type="button" value="Read more" class="readmore"></a>
                 </div>
-               <div class="col-sm-7 image-left">
+               <div class="col-sm-7 image-left wow slideInRight" data-wow-duration="2s">
                     <a href="fresher.html"><img src="fresher/images/sample1.png"/></a> 
                </div>
             </div>
@@ -106,7 +99,7 @@ A curriculum vitae(often shortened CV or vita) is a written overview of a person
 <!--section2-->
       <div class="container-fluid">
             <div class="row">
-              <div class="col-sm-7 image-right">
+              <div class="col-sm-7 image-right wow slideInLeft" data-wow-duration="2s">
                     <a href="fresher.html"><img src="expericened/images/sample1.png"/></a> 
                </div>
                 <div class="col-sm-5 text-right">
@@ -124,35 +117,60 @@ A curriculum vitae(often shortened CV or vita) is a written overview of a person
                     <h2>Our Team</h2><br>
                 </header>
                 <div class="row">
-                    <div class="col-sm-4 image1">
-                        <center><img src="images/pranjal.jpg"/><br><br><h2>Pranjal Rawat</h2></center>
+                    <div class="col-sm-4 image1 wow fadeInLeft" data-wow-duration="2s">
+                        <div class="card">
+                        <div class="imgBox"><img src="images/pranjal.jpg"/></div>
+                        <div class="details">
+                            <div class="content">
+                                <h3>Pranjal Rawat<br><span>Front End and Back End Developer</span></h3>
+                                <ul>
+                                <li><a class="fa fa-github" id="github" href="#"><span class="label"></span></a></li>
+                                <li><a class="fa fa-linkedin-square" id="linkedin" href="#"><span class="label"></span></a></li>	
+								<li><a class="fa fa-google-plus-official" id="google" href="#"><span class="label"></span></a></li>
+                                <li><a class="fa fa-twitter-square" id="twitter" href="#"><span class="label"></span></a></li>	
+								<li><a class="fa fa-facebook-official" id="facebook" href="#"><span class="label"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-sm-4 image2">
-                        <center><img src="images/kanchan.jpg"/><br><br><h2>Kanchan Bhandari</h2></center>
                     </div>
-                    <div class="col-sm-4 image3">
-                        <center><img src="images/kuldeep.jpg"/><br><br><h2>Kuldeep Gusain</h2></center>
+                    <div class="col-sm-4 image2  wow flipInX" data-wow-duration="2s">
+                       <div class="card">
+                        <div class="imgBox"><img src="images/kanchan.jpg"/></div>
+                        <div class="details">
+                            <div class="content">
+                                <h3>Kanchan Bhandari<br><span>Project Manager</span></h3>
+                                <ul>
+                                <li><a class="fa fa-github" id="github" href="#"><span class="label"></span></a></li>
+                                <li><a class="fa fa-linkedin-square" id="linkedin" href="#"><span class="label"></span></a></li>	
+								<li><a class="fa fa-google-plus-official" id="google" href="#"><span class="label"></span></a></li>
+                                <li><a class="fa fa-twitter-square" id="twitter" href="#"><span class="label"></span></a></li>	
+								<li><a class="fa fa-facebook-official" id="facebook" href="#"><span class="label"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>                 
+                    </div>
+                    <div class="col-sm-4 image3 wow fadeInRight" data-wow-duration="2s">
+                        <div class="card ">
+                        <div class="imgBox"><img src="images/kuldeep.jpg"/></div>
+                        <div class="details">
+                            <div class="content">
+                                <h3>Kuldeep Gusain<br><span>Project Analyst</span></h3>
+                                <ul>
+                                <li><a class="fa fa-github" id="github" href="#"><span class="label"></span></a></li>
+                                <li><a class="fa fa-linkedin-square" id="linkedin" href="#"><span class="label"></span></a></li>	
+								<li><a class="fa fa-google-plus-official" id="google" href="#"><span class="label"></span></a></li>
+                                <li><a class="fa fa-twitter-square" id="twitter" href="#"><span class="label"></span></a></li>	
+								<li><a class="fa fa-facebook-official" id="facebook" href="#"><span class="label"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>                   
                     </div>
 
                 </div>
             </div>
-      
-      
-                <div class="container-fluid">
-					<div class=" form-button" id="signup">
-						<header>
-							<h2>Keep In Touch With Us</h2><br>
-						</header>
-                            <form method="post" action="">
-                                <input type="text" name="" placeholder="Username" class="form-button1" required>
-                                <input type="email" name="" placeholder="Enter Your Email Id" class="form-button1" required><br>
-                                 <input type="password" name="" placeholder="Create A Password" class="form-button1" required><br>
-                                <input  type="submit" value="Create An Account" class="signup" /><br><h3>or</h3>
-                                <a href="login.html"><input type="button" value="LogIn" class="login" /></a>
-                            </form>
-                        </div>
-					</div>
-      
       
       
       
@@ -228,6 +246,7 @@ A curriculum vitae(often shortened CV or vita) is a written overview of a person
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
