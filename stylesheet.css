@@ -544,6 +544,7 @@ h3{
     .text-left, .text-right, .box-highlight{
         border:0;
         padding:2px;
+        line-height: normal;
     }
     .image-left img, .image-right img{
         height:`100%;
@@ -604,16 +605,14 @@ h3{
     }
     .support{
         margin:0 40px 0 40px;
-        border:2px solid rgba(256,256,256,.3);
-        display:inline-block;
     }
     .support>h4{
-        margin-left:-10px;
+        
         font-size:25px !important;
         text-align: center;
     }
     .support>ul{
-        margin-left:-50px;
+        
         font-size:15px !important;
         text-align: center;
     }
