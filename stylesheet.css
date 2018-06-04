@@ -486,6 +486,21 @@ h3{
 }
 /*footer ends*/
 
+.section{
+    padding:0 20% 0 20%;
+    background-color:#fff;
+}
+.heading-text{
+    text-align: center;
+    color:#262626;
+}
+.block-img{
+    width:100%;
+    height:100%;
+}
+.description{
+    text-align: left;
+}
 @media(max-width:767px){
     .mynav{
         height:400px;
