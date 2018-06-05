@@ -69,10 +69,7 @@ body{
         transform:rotate(-360deg);
     }
 }
-@keyframes fadeout{
-    from{opacity:1;}
-    to{opacity:0;}
-}
+
 /*navigation bar start*/
 .mynav{
     background-image: url('images/background2.jpg');
@@ -93,7 +90,7 @@ body{
     font-size:1em;
 }
 .navbar .navbar-nav{
-    margin:0 auto;
+    margin:0 20%;
 }
 
 .active{
