@@ -590,17 +590,26 @@ h3{
     }
    
     .container{
+        left:0;
+        right:0;
+        top:0;
+        bottom:0;
         padding-left: 0px;
         padding-right:0px;
-        margin:0;
+        margin:0px;
     }
     .container-fluid{
         padding:0 2px 0 2px;
-        margin:0;
+        left:0;
+        right:0;
+        top:0;
+        bottom:0;
+        margin:0px;
     }
     #img_logo{
-        width:70px;
-        height:100%;
+        width:100px;
+        height:100px;
+        padding:0px;
     }
     .image{
         margin:0px;
@@ -615,14 +624,14 @@ h3{
         font-size:30px;
     }
     .team{
-        padding:0;
+        padding:0px;
     }
     .card{
         margin-bottom:20px;
     }
     .section{
         padding:2px;
-        margin:0;
+        margin:0px;
     }
     .heading-text{
         font-size:20px !important;
@@ -647,17 +656,5 @@ h3{
     .hide{
         font-size:0px !important;
     }
-    .support{
-        margin:0 40px 0 40px;
-    }
-    .support>h4{
-        
-        font-size:25px !important;
-        text-align: center;
-    }
-    .support>ul{
-        
-        font-size:15px !important;
-        text-align: center;
-    }
+
 }
