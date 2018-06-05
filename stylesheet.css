@@ -5,36 +5,74 @@ body{
     padding:0;
     font-size:20px;
 }
-div#load_screen{
-    background: #000;
-    opacity:100;
-    position:fixed;
-    top:0px;
-    z-index:99;
+
+.preload{
     width:100%;
     height:100%;
-    overflow: hidden;
-}
-div#load_screen > div#loading{
+    background:#333;
     position:fixed;
-    top:45%;
-    left:45%;
-    border:16px solid #f3f3f3;
-    border-radius: 50%;
-    border-top:16px solid #3998db;
-    width:120px;
-    height: 120px;
-    animation:spin 3s linear infinite;
+    top:0;
+    left:0;
+    z-index:1;
 }
-@keyframes spin{
-    0%{
+.logo_pre{
+    width:300px;
+    height:70px;
+    margin:150px auto 50px auto;
+    font-size:50px !important;
+    text-shadow:-1px 2px 2px #000;
+    text-align:center;
+    color:azure;
+}
+.loader-frame{
+    width:70px;
+    height: 70px;
+    margin:auto;
+    position:relative;
+}
+.loader1, .loader2{
+    position:absolute;
+    border: 5px solid transparent;
+    border-radius:50%;
+}
+.loader1{
+    width:70px;
+    height:70px;
+    border-top:5px solid azure;
+    border-bottom:5px solid azure;
+    animation:clockwisespin 2s linear infinite;
+
+}
+.loader2{
+    width:60px;
+    height:60px;
+    border-top:5px solid darkturquoise;
+    border-bottom:5px solid darkturquoise;
+    top:5px;
+    left:5px;
+    animation:anticlockwisespin 2s linear infinite;
+}
+
+@keyframes clockwisespin{
+    from{
         transform:rotate(0deg);
     }
-    100%{
+    to{
         transform:rotate(360deg);
     }
 }
-
+@keyframes anticlockwisespin{
+    from{
+        transform:rotate(deg);
+    }
+    to{
+        transform:rotate(-360deg);
+    }
+}
+@keyframes fadeout{
+    from{opacity:1;}
+    to{opacity:0;}
+}
 /*navigation bar start*/
 .mynav{
     background-image: url('images/background2.jpg');
@@ -554,9 +592,15 @@ h3{
     .container{
         padding-left: 0px;
         padding-right:0px;
+        margin:0;
     }
     .container-fluid{
         padding:0 2px 0 2px;
+        margin:0;
+    }
+    #img_logo{
+        width:70px;
+        height:100%;
     }
     .image{
         margin:0px;

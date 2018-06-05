@@ -8,17 +8,24 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="javascript.js"></script>
+
     <link href="stylesheet.css" rel="stylesheet"/>
       
-    <title>Resume.com- The all in one resume website</title>
-        <link rel="icon" href="images/logo0.png"/>
+    <title>GetYourResume- The all in one resume website</title>
+        <link rel="icon" href="images/logo.png"/>
     </head>
     
   <body style="background-image:url('images/bg.jpg'); background-attachment: fixed; color:#fff;">
+      <div id="page-loader" style="display:none;">
+        <div class="loader-wrap">
+            <span class="loader02"></span>
+          </div>
+      </div>
     <div class="container-fluid">
     <div class="mynav container-fluid" style="background-color: rgba(250,250,250,0.6);">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand logo img-responsive" href="index.html"><img src="images/logo.png" alt="resume.com"/></a>
+          <a class="navbar-brand logo img-responsive" href="index.html"><img src="images/logo0.png" id="img_logo"/></a>
           <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -41,11 +48,13 @@
                </div>
               <!--search bar start-->
               
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-1 search" type="search" placeholder="  Search for courses" aria-label="Search">
-              <button class="search-button" type="submit">Search</button>
-            </form>
-              
+            <div class="search-bar">  
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-1 search" type="text" name="search" value="" autocomplete="off" placeholder="  Search for courses" aria-label="Search" id="myinputsearch">
+                    <button class="search-button" type="submit" onclick="searchFunctionexp()">Search</button>
+                </form>
+                <a id="click" display="hidden" target=""></a>
+            </div>  
               <!--search bar end-->
          
         </nav>
@@ -131,7 +140,7 @@ Most programs also include elective courses and concentrations for further study
             <a href="expericened/mba.html"> <input type="button" value="See more" class="seemore"></a>
         </div>
           <div class="container" style="background-color:#8a2be24d;">
-            <h1 class="center">CERTIFICATE COURSE IN HOTEL MANAGEMENT</h1>
+            <h1 class="center">Certification Course In Hoteal Management</h1>
              <p style=" line-height:40px;">
 The CERTIFICATE COURSE IN HOTEL MANAGEMENT (CHM) is a certification course for Hotel Management students. It is a less than a year course providing learners informatiion about the Hospitality industry.</p>
             <a href="expericened/chm.html"><img src="expericened/images/chm/sample1.png" class="image"/></a>
@@ -145,14 +154,14 @@ The CERTIFICATE COURSE IN HOTEL MANAGEMENT (CHM) is a certification course for H
       <footer class="footer">
                 <div class="row">
                     <div class="col-md-3 logo-footer">
-                        <a href="index.html"><img src="images/logo0.png"/></a>
+                        <a href="index.html"><img src="images/logo0.png" id="img_logo"/></a>
                         <address>
-                            <br>#2343, street kotdwara<br> Uttarakhand<br> INDIA (+91)
+                            #2343, street kotdwara<br> Uttarakhand<br> INDIA (+91)
                         </address>
                     </div>
                     <div class="col-md-9 footer-nav">
                         <div class="col-md-2 hide">
-                            <a href="fresher.html"><h4class="hide">Fresher</h4></a>
+                            <a href="fresher.html"><h4 class="hide">Fresher</h4></a>
                             <ul>
                                 <li><a href="fresher/bca.html">Bca</a></li>
                                 <li><a href="fresher/mca.html">Mca</a></li>
@@ -188,10 +197,10 @@ The CERTIFICATE COURSE IN HOTEL MANAGEMENT (CHM) is a certification course for H
                             </ul>
                         </div>
                         <div class="col-md-3">
-                            <h3>Resume.com</h3>
+                            <h3>GetYourResume</h3>
                             <hr width=100% color="white" >
                             <p>The wesite to find all of your resumes regrading most of the courses</p>
-                            <p>&copy 2018 Myresume.com</p>
+                            <p>&copy 2018 getyourresume.github.io</p>
                             
                             <ul class="footer-contact">
 								<li><a class="fa fa-github" id="github" href="#"><span class="label"></span></a></li>
