@@ -90,7 +90,7 @@ body{
     font-size:1em;
 }
 .navbar .navbar-nav{
-    margin:0 20%;
+    margin:0 auto;
 }
 
 .active{
@@ -385,9 +385,10 @@ h3{
     top:150px;
     left:50%;
     transform: translate(-50%,-50%);
-    width:260px;
-    height:295px;
+    width:240px;
+    height:271px;
     background: #262626;
+    margin-bottom:10px;
     }
 .card .imgBox{
     position: absolute;
@@ -539,6 +540,11 @@ h3{
 .description{
     text-align: left;
 }
+@media(max-width:1200px){
+    .image-text{
+        font-size:23px;
+    }
+}
 @media(max-width:767px){
     .mynav{
         height:400px;
@@ -587,21 +593,12 @@ h3{
     }
    
     .container{
-        left:0;
-        right:0;
-        top:0;
-        bottom:0;
+       
         padding-left: 0px;
         padding-right:0px;
-        margin:0px;
     }
     .container-fluid{
         padding:0 2px 0 2px;
-        left:0;
-        right:0;
-        top:0;
-        bottom:0;
-        margin:0px;
     }
     #img_logo{
         width:100px;
