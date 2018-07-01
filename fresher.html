@@ -46,7 +46,7 @@
             <div class="search-bar">  
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-1 search" type="text" name="search" value="" autocomplete="off" placeholder="  Search for courses" aria-label="Search" id="myinputsearch">
-                    <button class="search-button" type="button" onclick="searchFunction_frh()" id="search-btn">Search</button>
+                    <button class="search-button" type="button" onkeypress="handleKeyPress(event)" onclick="searchFunction_frh()" id="search-btn">Search</button>
                     <a href="#" id="serch" style="display:none;"></a>
                 </form>
 
