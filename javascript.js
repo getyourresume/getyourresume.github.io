@@ -25,3 +25,16 @@ function searchFunction_frh() {
             alert('This course is not available ');
         }
 }
+function handleKeyPress(e){
+ var key=e.keyCode || e.which;
+  if (key==13){
+     searchFunction_frh();
+  }
+}
+
+function handleKeyPress1(e){
+ var key=e.keyCode || e.which;
+  if (key==13){
+     searhFunction_exp();
+  }
+}
