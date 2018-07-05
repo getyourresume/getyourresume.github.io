@@ -49,9 +49,9 @@
               <!--search bar start-->
               
             <div class="search-bar">  
-                <form class="form-inline my-2 my-lg-0">
+                <form class="form-inline my-2 my-lg-0" onsubmit="searchFunction_exp();" action="javascript:void(0);">
                     <input class="form-control mr-sm-1 search" type="text" name="search" value="" autocomplete="off" placeholder="  Search for courses" aria-label="Search" id="myinputsearch">
-                    <button class="search-button" type="button" onclick="searchFunction_exp()" onkeypress="handleKeyPress1(event)" id="search-btn">Search</button>
+                    <button class="search-button" type="button"  onclick="searchFunction_exp()" id="search-btn">Search</button>
                     <a href="#" id="serch" style="display:none;"></a>
                 </form>
 
@@ -154,13 +154,14 @@ The CERTIFICATE COURSE IN HOTEL MANAGEMENT (CHM) is a certification course for H
       <div class="container-fluid">
       <footer class="footer">
                 <div class="row">
-                    <div class="col-md-2 logo-footer">
+                    <div class="col-md-3 logo-footer">
                         <a href="index.html"><img src="images/logo0.png" id="img_logo"/></a>
                         <address>
                             #2343, street kotdwara<br> Uttarakhand<br> INDIA (+91)
                         </address>
                     </div>
-                    <div class="col-md-10 footer-nav">
+                    <div class="col-md-9 footer-nav">
+                        <div class="row">
                         <div class="col-md-2 hide">
                             <a href="fresher.html"><h4 class="hide">Fresher</h4></a>
                             <ul>
@@ -174,7 +175,7 @@ The CERTIFICATE COURSE IN HOTEL MANAGEMENT (CHM) is a certification course for H
                                 <li><a href="fresher/chm.html">chm</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-2 hide">
+                        <div class="col-md-3 hide">
                             <a href="expericened.html"><h4 class="hide">Expericened</h4></a>
                             <ul>
                                 <li><a href="expericened/bca.html">Bca</a></li>
@@ -187,7 +188,7 @@ The CERTIFICATE COURSE IN HOTEL MANAGEMENT (CHM) is a certification course for H
                                 <li><a href="expericened/chm.html">chm</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-2 hide">
+                        <div class="col-md-3 hide">
                             <h4 class="hide">Support</h4>
                             <ul>
                                 <li><a href="#">Facebook</a></li>
@@ -212,6 +213,7 @@ The CERTIFICATE COURSE IN HOTEL MANAGEMENT (CHM) is a certification course for H
 
                             </ul>
                         </div>
+                    </div>
                     </div>
                 </div>
       

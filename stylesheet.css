@@ -481,7 +481,7 @@ h3{
     text-align:center;
     list-style: none;
     position:relative;
-    display:contents;
+    display:contents !important;
 }
 .footer-nav h4{
     margin-left:20%;
@@ -544,8 +544,9 @@ h3{
     .image-text{
         font-size:23px;
     }
+    
 }
-@media(max-width:767px){
+@media(max-width:768px){
     .mynav{
         height:400px;
         width:100%;
@@ -650,5 +651,6 @@ h3{
     .hide{
         font-size:0px !important;
     }
+    
 
 }
