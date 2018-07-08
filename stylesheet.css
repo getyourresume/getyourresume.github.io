@@ -551,6 +551,9 @@ h3{
         height:400px;
         width:100%;
     }
+    .navbar .navbar-nav{
+        margin: 0px auto;
+    }
     .search {
         font-size:15px;
         width:70%;
