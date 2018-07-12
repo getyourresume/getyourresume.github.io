@@ -520,7 +520,7 @@ h3{
 #twitter:hover{
     color:skyblue;
 }
-#facebook:hover{
+#instagram:hover,#facebook:hover{
     color:pink;
 }
 /*footer ends*/
