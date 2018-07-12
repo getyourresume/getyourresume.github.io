@@ -544,6 +544,10 @@ h3{
     .image-text{
         font-size:23px;
     }
+    .navbar .navbar-nav{
+        margin-left:0%;
+    }
+    
     
 }
 @media(max-width:768px){
@@ -552,7 +556,7 @@ h3{
         width:100%;
     }
     .navbar .navbar-nav{
-        margin: 0px auto;
+        margin-left:0%;
     }
     .search {
         font-size:15px;
